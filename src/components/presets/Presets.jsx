@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 import clsx from "clsx";
 
 import { presetsData } from "../../data/data";
@@ -15,8 +14,8 @@ function Presets() {
     setSelected(id);
   };
 
-  const resetState = e => {
-    setSelected("");
+  const resetState = () => {
+    setSelected(prev => (!!selected ? "" : prev));
   };
 
   return (
