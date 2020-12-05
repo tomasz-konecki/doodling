@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/Gotham/Gotham-Thin.otf");
+}
+
+@font-face {
+  font-family: "GothamTwo";
+  src: url("./fonts/Gotham/Gotham-BlackItalic.otf");
+}
+
+@font-face {
+  font-family: "GothamThree";
+  src: url("./fonts/Gotham/Gotham-Light.otf");
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  /* font-family: "GothamTwo"; */
+}
